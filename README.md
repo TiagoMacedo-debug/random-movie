@@ -2,8 +2,6 @@
 
 Aplicação web que sugere um filme aleatório com base em um gênero escolhido pelo usuário, usando a [API do TMDB](https://www.themoviedb.org/documentation/api).
 
-## Demonstração
-
 [Acesse o projeto online](https://seu-nome.github.io/random-movie/)
 
 ---
