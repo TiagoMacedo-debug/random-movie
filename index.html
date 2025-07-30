@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Random Movie</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Random Movie</h1>
+    <form id="genre-form">
+      <div class="select-wrapper">
+        <select id="genre-select" required>
+        </select>
+      </div>
+    </form>
+  </header>
+
+  <main>
+    <section id="movie-container">
+      <div class="container movie-featured">
+  <div class="row align-items-start gy-4">
+    <div class="col-md-5">
+      <div class="poster-box"></div>
+    </div>
+    <div class="col-md-7">
+      <div class="details-box">
+        <div class="cast-scroll"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </section>
+
+    <div class="center">
+      <button id="new-movie-btn">Nova sugestão...</button>
+    </div>
+  </main>
+
+  <footer class="d-flex justify-content-center">
+    <a href="https://github.com/TiagoMacedo-debug/random-movie" class="github-btn me-2" target="_blank" aria-label="GitHub do projeto">
+      <i class="bi bi-github"></i>
+    </a>
+    <p>Feito por Tiago • Usando a API do <a class="footer-link" href="https://www.themoviedb.org">TMDB</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
